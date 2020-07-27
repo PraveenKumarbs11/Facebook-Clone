@@ -182,7 +182,7 @@ $_SESSION['d_dob'] = $values_row['dob'];
 			margin: 20px 20px 10px 20px;
 		}
 		.profileContainer .updateForm form input#phone{
-			margin: 20px 20px 10px 20px;
+			margin: 20px 20px 10px 5px;
 		}
 		.profileContainer .updateForm form select.date{
 			margin: 0px 20px 0px 500px;
