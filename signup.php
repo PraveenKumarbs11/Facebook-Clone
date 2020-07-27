@@ -42,7 +42,7 @@ error_reporting(0);
 			}
 			.bodyContainer{
 				background-image: linear-gradient(#ffffff, #D3D8E8);
-				height: 565px;
+				height: 575px;
 			}
 			.bodyContainer .left span{
 				color: #0E385F;
@@ -346,11 +346,7 @@ error_reporting(0);
 			</div>
 		</header>
 		<div class="bodyContainer">
-		  	<div class="left" <?php if($_SESSION['url']=="/facebookClone/signup.php"){ echo "style='display: none;'"; } ?> >
-				<span>Facebook helps you connect and share with the people in your life.</span>
-				<img class="image" src="assets/soft/friends.png"/>
-		 	</div>
-		  	<div class="right" <?php if($_SESSION['url']=="/facebookClone/signup.php"){ echo "style='left: 38%'"; } ?> >
+		  	<div class="right"style='left: 38%'>
 		  		<span class="create">Create an account</span><br>
 			    <span class="free">It's quick and easy.</span><br><br>
 			    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" class="regForm">
